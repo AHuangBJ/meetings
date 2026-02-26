@@ -29,3 +29,9 @@ Create a Pull Request appending, at the end of this very file, the request using
 - Speaker: Sitong Ling
 - Desired Duration: 10 minutes including Q&A
 - Datatracker Link: https://datatracker.ietf.org/doc/draft-ling-sidrops-rov-tag-profile/
+
+#### RPKI-based BGP Origin Attestation
+- Speaker: Mingqing Huang
+- Desired Duration: 15 minutes including Q&A
+- Datatracker Link: https://datatracker.ietf.org/doc/draft-huang-idr-bgp-origin-attestation/
+ 
