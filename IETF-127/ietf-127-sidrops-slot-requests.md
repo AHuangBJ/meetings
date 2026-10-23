@@ -28,3 +28,17 @@ Create a Pull Request appending, at the end of this very file, the request using
 - Expected outcome: community feedback / call for WG adoption
 - Abstract: Discussion on the concept of using mixed signing algorithm certificate chains in the RPKI. Permitting a second (widely supported) signing algorithm in the RPKI allows for smaller signatures in the short term and gaining operational experience towards PQ transitions in the long term.   
 - Datatracker link: To be posted
+
+#### Information Asymmetry and Deployment Gaps in RPKI-based Route Origin Validation
+- Speaker: Weiqiang Cheng
+- Desired Duration: 10 minutes
+- Expected outcome: community feedback
+- Abstract:This draft analyzes RPKI/ROV deployment gaps and cross-plane information asymmetry, describes operational side effects, and frames the problem space for future work, without proposing new protocols.
+- Datatracker Link: [https://datatracker.ietf.org/doc/draft-cheng-sidrops-rpki-rov-gap-analysis/](https://datatracker.ietf.org/doc/draft-cheng-sidrops-rpki-rov-gap-analysis/)
+
+#### Source Pre-validation in RPKI ROV
+- Speaker: Mingqing Huang
+- Desired Duration: 10 minutes
+- Expected outcome: community feedback
+- Abstract: This document defines a BCP for source pre-validation: an originating AS checks its intended BGP announcement against its local RPKI cache before sending it to eBGP neighbors. The goal is to reduce the number of self-inflicted invalid routes, improve global routing stability, and encourage wider and more confident deployment of ROV drop policies across the Internet - including the long tail of stub and small regional ASes.
+- Datatracker Link: [https://datatracker.ietf.org/doc/draft-huang-sidrops-source-pre-validation/](https://datatracker.ietf.org/doc/draft-huang-sidrops-source-pre-validation/)
