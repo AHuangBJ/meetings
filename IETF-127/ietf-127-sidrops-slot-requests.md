@@ -36,9 +36,17 @@ Create a Pull Request appending, at the end of this very file, the request using
 - Abstract:This draft analyzes RPKI/ROV deployment gaps and cross-plane information asymmetry, describes operational side effects, and frames the problem space for future work, without proposing new protocols.
 - Datatracker Link: [https://datatracker.ietf.org/doc/draft-cheng-sidrops-rpki-rov-gap-analysis/](https://datatracker.ietf.org/doc/draft-cheng-sidrops-rpki-rov-gap-analysis/)
 
+
 #### Source Pre-validation in RPKI ROV
 - Speaker: Mingqing Huang
 - Desired Duration: 10 minutes
 - Expected outcome: community feedback
 - Abstract: This document defines a BCP for source pre-validation: an originating AS checks its intended BGP announcement against its local RPKI cache before sending it to eBGP neighbors. The goal is to reduce the number of self-inflicted invalid routes, improve global routing stability, and encourage wider and more confident deployment of ROV drop policies across the Internet - including the long tail of stub and small regional ASes.
 - Datatracker Link: [https://datatracker.ietf.org/doc/draft-huang-sidrops-source-pre-validation/](https://datatracker.ietf.org/doc/draft-huang-sidrops-source-pre-validation/)
+
+#### Export of BGP Prefix Origin Validation in IP Flow Information Export (IPFIX)
+- Speaker: Xueyan Song
+- Desired Duration: 5 minutes (Friday session)
+- Expected outcome: community feedback
+- Abstract: The draft defines an IPFIX Information Element to export the RPKI-based BGP Prefix Origin Validation state (valid/invalid/not-found) for the active Loc-RIB route. It gives operators standardized visibility into ROV outcomes alongside flow monitoring, helping detect hijacks/misconfigurations and bridging SIDR operations with existing IPFIX tooling. 
+- Datatracker Link: [https://datatracker.ietf.org/doc/draft-liu-sidrops-ipfix-bgp-pov/](https://datatracker.ietf.org/doc/draft-liu-sidrops-ipfix-bgp-pov/)
