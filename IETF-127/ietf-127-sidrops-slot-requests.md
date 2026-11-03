@@ -35,3 +35,11 @@ Create a Pull Request appending, at the end of this very file, the request using
 - Expected outcome: community feedback
 - Abstract: Using SODA, a validator performing Route Origin Validation (ROV) can determine whether an ROV-Invalid result reflects an authorized delegation rather than a route hijack.
 - Datatracker link: [https://datatracker.ietf.org/doc/draft-jiang-idr-bgp-soda/](https://datatracker.ietf.org/doc/draft-jiang-idr-bgp-soda/)
+
+#### Push Mode Extension for the RPKI to Router Protocol
+- Speaker: Liyan Gong
+- Desired duration: 10 minutes (Friday Sesion)
+- Expected outcome: community feedback
+- Abstract: This document defines a push mode extension for RTR that allows RPs to proactively push RPKI data updates to routers, either periodically or event-driven.  
+- Datatracker link: [[https://datatracker.ietf.org/doc/draft-gong-sidrops-rtr-push/](https://datatracker.ietf.org/doc/draft-gong-sidrops-rtr-push/)]
+
