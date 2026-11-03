@@ -29,8 +29,29 @@ Create a Pull Request appending, at the end of this very file, the request using
 - Abstract: Discussion on the concept of using mixed signing algorithm certificate chains in the RPKI. Permitting a second (widely supported) signing algorithm in the RPKI allows for smaller signatures in the short term and gaining operational experience towards PQ transitions in the long term.   
 - Datatracker link: To be posted
 
-#### Post-Quantum Cryptography for the RPKI
+#### BGP Signed Origin Delegation Attestation (SODA)
+- Speaker: Shenglin(Forrest) Jiang
+- Desired duration: 5 minutes
+- Expected outcome: community feedback
+- Abstract: Using SODA, a validator performing Route Origin Validation (ROV) can determine whether an ROV-Invalid result reflects an authorized delegation rather than a route hijack.
+- Datatracker link: [https://datatracker.ietf.org/doc/draft-jiang-idr-bgp-soda/](https://datatracker.ietf.org/doc/draft-jiang-idr-bgp-soda/)
 
+#### Push Mode Extension for the RPKI to Router Protocol
+- Speaker: Liyan Gong
+- Desired duration: 10 minutes (Friday Sesion)
+- Expected outcome: community feedback
+- Abstract: This document defines a push mode extension for RTR that allows RPs to proactively push RPKI data updates to routers, either periodically or event-driven.  
+- Datatracker link: [[https://datatracker.ietf.org/doc/draft-gong-sidrops-rtr-push/](https://datatracker.ietf.org/doc/draft-gong-sidrops-rtr-push/)]
+
+#### Considerations for Incremental Validation in RPKI Relying Parties
+- Speaker: Yingying Su, Yirong Yu
+- Desired Duration: 10 minutes (including Q&A)
+- Expected outcome: community feedback
+- Abstract: This document describes the operational problem and design space for incremental validation in RPKI Relying Parties (RPs), and discusses general correctness and security considerations for reusing previously computed validation state. The goal is to reduce redundant validation work after incremental repository synchronization. The correctness objective is to produce the same validated payload output as full validation for the same repository snapshot, trust anchor set, validation policy, validation time, and applicable RPKI validation rules. This document does not specify a particular algorithm or cache structure, change RPKI object formats, repository synchronization protocols, or validation semantics, or require RPs to implement incremental validation.
+- Datatracker Link: https://datatracker.ietf.org/doc/draft-su-sidrops-rpki-rp-incremental-validation/
+
+
+#### Post-Quantum Cryptography for the RPKI
 - Speaker: Tomoki Yoshikawa
 - Desired Duration: 10 minutes (including Q&A)
 - Expected outcome: Community feedback / call for WG adoption
