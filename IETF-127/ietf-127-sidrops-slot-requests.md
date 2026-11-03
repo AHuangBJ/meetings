@@ -49,3 +49,11 @@ Create a Pull Request appending, at the end of this very file, the request using
 - Expected outcome: community feedback
 - Abstract: This document describes the operational problem and design space for incremental validation in RPKI Relying Parties (RPs), and discusses general correctness and security considerations for reusing previously computed validation state. The goal is to reduce redundant validation work after incremental repository synchronization. The correctness objective is to produce the same validated payload output as full validation for the same repository snapshot, trust anchor set, validation policy, validation time, and applicable RPKI validation rules. This document does not specify a particular algorithm or cache structure, change RPKI object formats, repository synchronization protocols, or validation semantics, or require RPs to implement incremental validation.
 - Datatracker Link: https://datatracker.ietf.org/doc/draft-su-sidrops-rpki-rp-incremental-validation/
+
+
+#### Post-Quantum Cryptography for the RPKI
+- Speaker: Tomoki Yoshikawa
+- Desired Duration: 10 minutes (including Q&A)
+- Expected outcome: Community feedback / call for WG adoption
+- Abstract: This draft investigates the use of post-quantum cryptography in the RPKI, covering experimental implementations, performance evaluations, and migration considerations. The presentation will summarize the updates in -03 and seek community feedback on the document's direction and WG adoption.
+- Datatracker Link: https://datatracker.ietf.org/doc/draft-yoshikawa-sidrops-pqc-rpki/
